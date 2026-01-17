@@ -1,0 +1,96 @@
+================================================================================
+PUSH FASTPASS TO GITHUB - COPY AND PASTE THESE COMMANDS
+================================================================================
+
+STEP 1: Create Repository on GitHub
+------------------------------------
+1. Go to: https://github.com/new
+2. Repository name: fastpass
+3. Description: Digital enrollment tracking and queue management system
+4. Choose: Public or Private
+5. DO NOT check any boxes (no README, no .gitignore, no license)
+6. Click "Create repository"
+
+STEP 2: Copy Your GitHub Repository URL
+----------------------------------------
+After creating, you'll see a URL like:
+https://github.com/YOUR_USERNAME/fastpass.git
+
+Copy this URL!
+
+STEP 3: Run These Commands (Replace YOUR_USERNAME)
+---------------------------------------------------
+Copy and paste these commands ONE BY ONE into your terminal:
+
+git remote add origin https://github.com/YOUR_USERNAME/fastpass.git
+git branch -M main
+git push -u origin main
+
+Replace YOUR_USERNAME with your actual GitHub username!
+
+EXAMPLE:
+--------
+If your GitHub username is "johndoe", use:
+git remote add origin https://github.com/johndoe/fastpass.git
+git branch -M main
+git push -u origin main
+
+STEP 4: Verify on GitHub
+-------------------------
+Go to: https://github.com/YOUR_USERNAME/fastpass
+You should see all your files!
+
+================================================================================
+WHAT'S ALREADY DONE
+================================================================================
+✅ Git repository initialized
+✅ All files committed (49 files)
+✅ Professional README created
+✅ Documentation files included
+✅ .gitignore configured properly
+
+================================================================================
+AFTER PUSHING TO GITHUB
+================================================================================
+
+OPTIONAL: Connect Railway to GitHub for Auto-Deploy
+----------------------------------------------------
+1. Go to Railway dashboard: https://railway.app/dashboard
+2. Click on your "fastpass" service
+3. Settings → Connect to GitHub
+4. Select your repository
+5. Now every git push will auto-deploy!
+
+OPTIONAL: Connect Vercel to GitHub for Auto-Deploy
+---------------------------------------------------
+1. Go to Vercel dashboard: https://vercel.com/dashboard
+2. Import Project → Import Git Repository
+3. Select your fastpass repository
+4. Deploy!
+5. Now every git push will auto-deploy!
+
+================================================================================
+FUTURE WORKFLOW
+================================================================================
+
+When you make changes:
+1. Make your code changes
+2. git add .
+3. git commit -m "Description of what you changed"
+4. git push
+5. Railway and Vercel auto-deploy (if connected)
+
+================================================================================
+NEED HELP?
+================================================================================
+
+If you get "permission denied" error:
+- Make sure you're logged into GitHub
+- Try using personal access token instead of password
+- Generate token at: https://github.com/settings/tokens
+
+If you get "repository already exists" error:
+- The repository name is taken
+- Choose a different name or delete the existing one
+
+================================================================================
