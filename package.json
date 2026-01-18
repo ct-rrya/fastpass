@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "server": "node server/index-prisma.js",
     "server:old": "node server/index.js",
-    "start": "npx prisma migrate deploy && node server/index-prisma.js",
+    "start": "bash start.sh",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:deploy": "prisma migrate deploy",
