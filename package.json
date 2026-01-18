@@ -7,8 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server": "node server/index.js",
-    "start": "node server/index.js"
+    "server": "node server/index-prisma.js",
+    "server:old": "node server/index.js",
+    "start": "node server/index-prisma.js",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:deploy": "prisma migrate deploy",
+    "db:studio": "prisma studio",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -16,9 +22,11 @@
     "ws": "^8.16.0"
   },
   "devDependencies": {
+    "@prisma/client": "^5.22.0",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.33",
+    "prisma": "^5.22.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.4.1",

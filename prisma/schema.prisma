@@ -1,0 +1,63 @@
+// Prisma Schema for EnrollFlow
+// Database: PostgreSQL (use SQLite for local dev)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Student enrollment tracking
+model Enrollment {
+  id          String   @id @default(cuid())
+  studentId   String   @unique
+  offices     Json     // Array of office objects with status
+  currentQueue String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([studentId])
+}
+
+// Queue entries
+model Queue {
+  id          String   @id @default(cuid())
+  officeId    String
+  studentId   String
+  queueNumber Int
+  groupType   String   @default("individual") // individual, group, section
+  groupSize   Int      @default(1)
+  sectionName String?
+  status      String   @default("waiting") // waiting, serving, completed
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([officeId, status])
+  @@index([studentId])
+}
+
+// Queue counters per office
+model QueueCounter {
+  id        String   @id @default(cuid())
+  officeId  String   @unique
+  counter   Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([officeId])
+}
+
+// Office settings
+model OfficeSetting {
+  id                 String   @id @default(cuid())
+  officeId           String   @unique
+  processingMode     String   @default("individual")
+  avgProcessingTime  Int      @default(5)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  @@index([officeId])
+}

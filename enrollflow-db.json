@@ -1,0 +1,676 @@
+{
+  "enrollments": {
+    "123": {
+      "studentId": "123",
+      "offices": [
+        {
+          "id": "department",
+          "name": "Department Office",
+          "icon": "🏢",
+          "status": "completed",
+          "queueNumber": null
+        },
+        {
+          "id": "clinic",
+          "name": "Clinic",
+          "icon": "🏥",
+          "status": "completed",
+          "queueNumber": null
+        },
+        {
+          "id": "nstp",
+          "name": "NSTP Office",
+          "icon": "🎖️",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "cashier",
+          "name": "Cashier",
+          "icon": "💰",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "affairs",
+          "name": "Student Affairs",
+          "icon": "👥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "mis",
+          "name": "MIS Office",
+          "icon": "💻",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "registrar",
+          "name": "Registrar",
+          "icon": "📋",
+          "status": "pending",
+          "queueNumber": null
+        }
+      ],
+      "currentQueue": null
+    },
+    "456": {
+      "studentId": "456",
+      "offices": [
+        {
+          "id": "department",
+          "name": "Department Office",
+          "icon": "🏢",
+          "status": "completed",
+          "queueNumber": null
+        },
+        {
+          "id": "clinic",
+          "name": "Clinic",
+          "icon": "🏥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "nstp",
+          "name": "NSTP Office",
+          "icon": "🎖️",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "cashier",
+          "name": "Cashier",
+          "icon": "💰",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "affairs",
+          "name": "Student Affairs",
+          "icon": "👥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "mis",
+          "name": "MIS Office",
+          "icon": "💻",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "registrar",
+          "name": "Registrar",
+          "icon": "📋",
+          "status": "pending",
+          "queueNumber": null
+        }
+      ],
+      "currentQueue": null
+    },
+    "741": {
+      "studentId": "741",
+      "offices": [
+        {
+          "id": "department",
+          "name": "Department Office",
+          "icon": "🏢",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "clinic",
+          "name": "Clinic",
+          "icon": "🏥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "nstp",
+          "name": "NSTP Office",
+          "icon": "🎖️",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "cashier",
+          "name": "Cashier",
+          "icon": "💰",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "affairs",
+          "name": "Student Affairs",
+          "icon": "👥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "mis",
+          "name": "MIS Office",
+          "icon": "💻",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "registrar",
+          "name": "Registrar",
+          "icon": "📋",
+          "status": "pending",
+          "queueNumber": null
+        }
+      ],
+      "currentQueue": null
+    },
+    "789": {
+      "studentId": "789",
+      "offices": [
+        {
+          "id": "department",
+          "name": "Department Office",
+          "icon": "🏢",
+          "status": "completed",
+          "queueNumber": null
+        },
+        {
+          "id": "clinic",
+          "name": "Clinic",
+          "icon": "🏥",
+          "status": "completed",
+          "queueNumber": null
+        },
+        {
+          "id": "nstp",
+          "name": "NSTP Office",
+          "icon": "🎖️",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "cashier",
+          "name": "Cashier",
+          "icon": "💰",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "affairs",
+          "name": "Student Affairs",
+          "icon": "👥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "mis",
+          "name": "MIS Office",
+          "icon": "💻",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "registrar",
+          "name": "Registrar",
+          "icon": "📋",
+          "status": "pending",
+          "queueNumber": null
+        }
+      ],
+      "currentQueue": null
+    },
+    "852": {
+      "studentId": "852",
+      "offices": [
+        {
+          "id": "department",
+          "name": "Department Office",
+          "icon": "🏢",
+          "status": "completed",
+          "queueNumber": null
+        },
+        {
+          "id": "clinic",
+          "name": "Clinic",
+          "icon": "🏥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "nstp",
+          "name": "NSTP Office",
+          "icon": "🎖️",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "cashier",
+          "name": "Cashier",
+          "icon": "💰",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "affairs",
+          "name": "Student Affairs",
+          "icon": "👥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "mis",
+          "name": "MIS Office",
+          "icon": "💻",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "registrar",
+          "name": "Registrar",
+          "icon": "📋",
+          "status": "pending",
+          "queueNumber": null
+        }
+      ],
+      "currentQueue": null
+    },
+    "865": {
+      "studentId": "865",
+      "offices": [
+        {
+          "id": "department",
+          "name": "Department Office",
+          "icon": "🏢",
+          "status": "completed",
+          "queueNumber": null
+        },
+        {
+          "id": "clinic",
+          "name": "Clinic",
+          "icon": "🏥",
+          "status": "completed",
+          "queueNumber": null
+        },
+        {
+          "id": "nstp",
+          "name": "NSTP Office",
+          "icon": "🎖️",
+          "status": "completed",
+          "queueNumber": null
+        },
+        {
+          "id": "cashier",
+          "name": "Cashier",
+          "icon": "💰",
+          "status": "completed",
+          "queueNumber": null
+        },
+        {
+          "id": "affairs",
+          "name": "Student Affairs",
+          "icon": "👥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "mis",
+          "name": "MIS Office",
+          "icon": "💻",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "registrar",
+          "name": "Registrar",
+          "icon": "📋",
+          "status": "pending",
+          "queueNumber": null
+        }
+      ],
+      "currentQueue": null
+    },
+    "963": {
+      "studentId": "963",
+      "offices": [
+        {
+          "id": "department",
+          "name": "Department Office",
+          "icon": "🏢",
+          "status": "completed",
+          "queueNumber": null
+        },
+        {
+          "id": "clinic",
+          "name": "Clinic",
+          "icon": "🏥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "nstp",
+          "name": "NSTP Office",
+          "icon": "🎖️",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "cashier",
+          "name": "Cashier",
+          "icon": "💰",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "affairs",
+          "name": "Student Affairs",
+          "icon": "👥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "mis",
+          "name": "MIS Office",
+          "icon": "💻",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "registrar",
+          "name": "Registrar",
+          "icon": "📋",
+          "status": "pending",
+          "queueNumber": null
+        }
+      ],
+      "currentQueue": null
+    },
+    "department": {
+      "studentId": "department",
+      "offices": [
+        {
+          "id": "department",
+          "name": "Department Office",
+          "icon": "🏢",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "clinic",
+          "name": "Clinic",
+          "icon": "🏥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "nstp",
+          "name": "NSTP Office",
+          "icon": "🎖️",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "cashier",
+          "name": "Cashier",
+          "icon": "💰",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "affairs",
+          "name": "Student Affairs",
+          "icon": "👥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "mis",
+          "name": "MIS Office",
+          "icon": "💻",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "registrar",
+          "name": "Registrar",
+          "icon": "📋",
+          "status": "pending",
+          "queueNumber": null
+        }
+      ],
+      "currentQueue": null
+    },
+    "cashier": {
+      "studentId": "cashier",
+      "offices": [
+        {
+          "id": "department",
+          "name": "Department Office",
+          "icon": "🏢",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "clinic",
+          "name": "Clinic",
+          "icon": "🏥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "nstp",
+          "name": "NSTP Office",
+          "icon": "🎖️",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "cashier",
+          "name": "Cashier",
+          "icon": "💰",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "affairs",
+          "name": "Student Affairs",
+          "icon": "👥",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "mis",
+          "name": "MIS Office",
+          "icon": "💻",
+          "status": "pending",
+          "queueNumber": null
+        },
+        {
+          "id": "registrar",
+          "name": "Registrar",
+          "icon": "📋",
+          "status": "pending",
+          "queueNumber": null
+        }
+      ],
+      "currentQueue": null
+    }
+  },
+  "queues": [
+    {
+      "id": 1768654470767,
+      "officeId": "department",
+      "studentId": "865",
+      "queueNumber": 1,
+      "status": "completed",
+      "createdAt": 1768654470767
+    },
+    {
+      "id": 1768654614035,
+      "officeId": "department",
+      "studentId": "865",
+      "queueNumber": 2,
+      "status": "completed",
+      "createdAt": 1768654614035
+    },
+    {
+      "id": 1768654619073,
+      "officeId": "clinic",
+      "studentId": "865",
+      "queueNumber": 1,
+      "status": "completed",
+      "createdAt": 1768654619073
+    },
+    {
+      "id": 1768654915224,
+      "officeId": "clinic",
+      "studentId": "865",
+      "queueNumber": 2,
+      "status": "completed",
+      "createdAt": 1768654915224
+    },
+    {
+      "id": 1768654952304,
+      "officeId": "nstp",
+      "studentId": "865",
+      "queueNumber": 1,
+      "status": "completed",
+      "createdAt": 1768654952304
+    },
+    {
+      "id": 1768654957741,
+      "officeId": "department",
+      "studentId": "123",
+      "queueNumber": 3,
+      "status": "completed",
+      "createdAt": 1768654957741
+    },
+    {
+      "id": 1768654963208,
+      "officeId": "department",
+      "studentId": "852",
+      "queueNumber": 4,
+      "status": "completed",
+      "createdAt": 1768654963208
+    },
+    {
+      "id": 1768654971028,
+      "officeId": "department",
+      "studentId": "963",
+      "queueNumber": 5,
+      "status": "completed",
+      "createdAt": 1768654971028
+    },
+    {
+      "id": 1768656058386,
+      "officeId": "department",
+      "studentId": "789",
+      "queueNumber": 6,
+      "status": "completed",
+      "createdAt": 1768656058386
+    },
+    {
+      "id": 1768656088100,
+      "officeId": "department",
+      "studentId": "789",
+      "queueNumber": 7,
+      "status": "completed",
+      "createdAt": 1768656088100
+    },
+    {
+      "id": 1768656621532,
+      "officeId": "nstp",
+      "studentId": "865",
+      "queueNumber": 2,
+      "status": "completed",
+      "createdAt": 1768656621532
+    },
+    {
+      "id": 1768657021677,
+      "officeId": "clinic",
+      "studentId": "789",
+      "queueNumber": 3,
+      "status": "completed",
+      "createdAt": 1768657021677
+    },
+    {
+      "id": 1768657754611,
+      "officeId": "clinic",
+      "studentId": "123",
+      "queueNumber": 4,
+      "status": "completed",
+      "createdAt": 1768657754611
+    },
+    {
+      "id": 1768657779888,
+      "officeId": "nstp",
+      "studentId": "123",
+      "queueNumber": 3,
+      "status": "waiting",
+      "createdAt": 1768657779888
+    },
+    {
+      "id": 1768660218554,
+      "officeId": "department",
+      "studentId": "456",
+      "queueNumber": 8,
+      "status": "completed",
+      "createdAt": 1768660218554
+    },
+    {
+      "id": 1768660218558,
+      "officeId": "department",
+      "studentId": "456",
+      "queueNumber": 9,
+      "status": "completed",
+      "createdAt": 1768660218558
+    },
+    {
+      "id": 1768660218872,
+      "officeId": "department",
+      "studentId": "456",
+      "queueNumber": 10,
+      "status": "completed",
+      "createdAt": 1768660218872
+    },
+    {
+      "id": 1768665114601,
+      "officeId": "cashier",
+      "studentId": "865",
+      "queueNumber": 1,
+      "status": "completed",
+      "createdAt": 1768665114601
+    },
+    {
+      "id": 1768665163075,
+      "officeId": "affairs",
+      "studentId": "865",
+      "queueNumber": 1,
+      "status": "waiting",
+      "createdAt": 1768665163075
+    },
+    {
+      "id": 1768665200039,
+      "officeId": "affairs",
+      "studentId": "865",
+      "queueNumber": 2,
+      "status": "waiting",
+      "createdAt": 1768665200039
+    },
+    {
+      "id": 1768665246251,
+      "officeId": "nstp",
+      "studentId": "789",
+      "queueNumber": 4,
+      "status": "waiting",
+      "createdAt": 1768665246251
+    }
+  ],
+  "queueCounters": {
+    "department": 10,
+    "clinic": 4,
+    "nstp": 4,
+    "cashier": 1,
+    "affairs": 2
+  }
+}
