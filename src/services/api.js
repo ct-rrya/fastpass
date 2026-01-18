@@ -1,5 +1,5 @@
 const API_BASE = import.meta.env.PROD 
-  ? 'https://fastpass-production.up.railway.app/api'
+  ? 'https://fastpass-backend-two.vercel.app/api'
   : '/api';
 
 async function fetchWithOffline(url, options = {}) {
