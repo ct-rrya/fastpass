@@ -14,7 +14,8 @@ dev-dist/
 # Database
 *.db
 *.db-journal
-prisma/migrations/
+# Don't ignore migrations - they need to be committed
+# prisma/migrations/
 
 # Logs
 *.log
